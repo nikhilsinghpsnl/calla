@@ -1,0 +1,298 @@
+@media (max-width:1199px){
+    h1{
+        font-size: 48px;
+        font-family: 'Crimson';
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 36px;
+        font-family: 'Crimson';
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    h3, .h3{
+        font-size: 30px;
+        font-family: 'Allura';
+        font-weight: 500;
+        padding: 0;
+        margin: 0;
+    }
+    .h3{
+        font-family: 'Crimson';
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    h4{
+        font-family: 'Crimson';
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    h5{
+        font-family: 'OpenSans' sans-serif;
+        font-size: 14px;
+    }
+    .page-banner, .new-arrivals, .trends, .blog, .right-gift, .team, .features, .portfolio, .newsletter{
+        margin-bottom: 30px;
+    }
+    /*  */
+
+    .head-top a{
+        font-size: 10px;
+    }
+    .page-logo{
+        margin: 0;
+    }
+    .page-logo img{
+        width: 35%;
+    }
+    .page-header{
+        padding: 20px;
+    }
+    .banner-float-box-bg{
+        width: 50%;
+        height: 50%;
+        padding: 1px;
+    }
+    .banner-float-box{
+        padding: 15%;
+    }
+    .banner-float-box img{
+        margin-bottom: 15px;
+    }
+    .banner-float-box p{
+        font-size: 14px;
+    }
+    .trends-poster{
+        margin-bottom: 15px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+    }
+    .trends-img{
+        margin: 0 10px;
+    }
+    .t-top-center h3{
+        font-size: 30px;
+    }
+    .right-gift {
+        padding: 15px 0;
+    }
+    .f-box1, .f-box2, .f-box3{
+        padding: 15px;
+    }
+}
+
+@media (max-width:991px){
+    h1{
+        font-size: 36px;
+        font-family: 'Crimson';
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 30px;
+        font-family: 'Crimson';
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    h3, .h3{
+        font-size: 28px;
+        font-family: 'Allura';
+        font-weight: 500;
+        padding: 0;
+        margin: 0;
+    }
+    .h3{
+        font-family: 'Crimson';
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    h4{
+        font-family: 'Crimson';
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0;
+        margin: 0;
+    }
+    h5{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    p{
+        padding: 0;
+        margin: 0;
+    }
+    .btn-white{
+        width: max-content;
+        padding: 5px 10px;
+    }
+    .btn-green{
+        width: max-content;
+        padding: 5px 10px;
+    }
+    .btn-orange{
+        width: max-content;
+        padding: 5px 10px;
+    }
+    .banner-float-box{
+        padding: 5%;
+    }
+    .trends-poster h3 {
+        font-size: 7rem;
+        line-height: 5rem;
+    }
+    .grid{
+        grid-gap: 5px;
+    }
+    .trends-img{
+        margin: 0 5px;
+    }
+    .t-top-center h3 {
+        font-size: 22px;
+    }
+    .summary .h3 {
+        min-height: 48px;
+    }
+    .team-overlay-in p b {
+        font-weight: 500;
+    }
+    .team-overlay-in p {
+        margin: 5px 0;
+    }
+    .newsletter {
+        padding: 30px 0;
+    }
+    .newsletter-head h3 {
+        color: #ffffff;
+        font-size: 48px;
+    }
+    .newsletter-head p{
+        font-size: 12px;
+    }
+    .newsletter-form input[type=email] {
+        padding: 5px 10px;
+    }
+}
+
+/* MEDIA FOR IPHONE */
+@media (max-width: 480px){
+    .head-top, .head-social{
+        display: none;
+    }
+    .page-logo{
+        margin: 0;
+        width: 50%;
+        position: fixed;
+        top: 15px;
+        left: 15px;
+        z-index: 101;
+    }
+    .page-logo img{
+        width: 100%;
+    }
+    .page-header{
+        padding: 30px 0;
+    }
+    .head-menu ul{
+        display: block;
+    }
+    .head-menu li{
+        margin: 30px;
+    }
+    #headMenu{
+        position: fixed;
+        top: 60px;
+        right: -50%;
+        background-color: #ffffff;
+        margin-right: -15px;
+        height: 100vh;
+        width: 50vw;
+        transition: 0.5s;
+    }
+    #headMenu.show{
+        right: 0;
+    }
+    .head-icons{
+        position: fixed;
+        top: 15px;
+        right: 0px;
+    }
+    .page-banner{
+        margin-top: 20px;
+    }
+    .banner-float-box-bg{
+        display: none;
+    }
+    .trends-poster h3{
+        font-size: 4rem;
+        line-height: 3rem;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .trends-img{
+        margin: 0;
+    }
+    .t-center h3 {
+        font-size: 24px;
+    }
+    .t-center img{
+        width: 100px;
+    }
+    .t-top-center h3 {
+        font-size: 18px;
+    }
+    .summary{
+        margin-bottom: 30px;
+    }
+    .team-head {
+        background-size: cover;
+    }
+    .team-person{
+        margin-bottom: 15px;
+    }
+    .team-overlay-in .head-social{
+        display: flex;
+    }
+    .team-overlay-in .head-social li{
+        margin: 0 10px;
+    }
+    .features-box {
+        margin-bottom: 15px;
+    }
+    .newsletter{
+        margin: 0 -15px 30px;
+    }
+    .newsletter-head{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .newsletter-form{
+        flex-direction: column;
+    }
+    .newsletter-form input[type=email]{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .foot-section h4{
+        margin-top: 30px;
+    }
+
+}
